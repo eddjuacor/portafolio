@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import {Link} from 'react-router-dom'
 
 function Proyectos(){
@@ -16,14 +17,14 @@ function Proyectos(){
                         
                          <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
                              <div className="card-body p-0">
-                                 <div className="d-flex align-items-center">
+                                 <div className="d-flex align-items-center mx-4">
                                      <div className="p-5">
                                          <h2 className="fw-bolder">Tienda en Linea</h2>
                                          <p>Esta tienda se realizo con una plantilla de Bootstrap la cual se adapto a las necesidades, la plantilla se 
                                             componetizo con React JS, se aplico el react-router-dom para los diferentes links y asi hacer mas fluida la navegacion.
                                          </p>
                                      </div>
-                                     <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    <a href='https://market502.000webhostapp.com/'> <img className="img-fluid" src="./assets/proyecto1.jpg" alt="..."  /></a>
                                  </div>
                              </div>
                          </div>

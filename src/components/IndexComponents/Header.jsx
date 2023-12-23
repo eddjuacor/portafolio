@@ -10,7 +10,7 @@ function Header (){
                          
                             <div className="text-center text-xxl-start">
                                 <div className="badge bg-dark bg-light text-white mb-4"><div className="text-uppercase">Web &middot; Development </div></div>
-                                <div className="fs-3 fw-light text-muted">Si lo puedes imaginar, lo puedes programar.</div>
+                   
                                 <h1 className="display-3 fw-bolder mb-5"><span className="text-gradient d-inline">Soy Edd J.</span></h1>
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                     <Link className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" to="/resumen">Resumen</Link>
@@ -21,9 +21,9 @@ function Header (){
                         <div className="col-xxl-7">
                             
                             <div className="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div className="profile bg-black">
+                                <div className="profile ">
                                    
-                                    <img className="profile-img" src="assets/profile.png" alt="..." />
+                                    <img className="profile-img img-thumbnail" src="assets/profile.png" alt="..." />
                                     
                                 </div>
                             </div>
